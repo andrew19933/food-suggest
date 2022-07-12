@@ -1,0 +1,11 @@
+TODO:
+- parse ingredients list so that it can reckognize volumetric/weight terms (eg. tsp, Tbsp, cup, grams) and structure ingredients list in (ingredient, amount) normalized to, say, grams or something
+
+
+really should use vocab as an ingredient dictionary, this makes a lot more sense when padding
+
+figure out how <code>embedding_dim</code> should compare to <code>vocab_size</code>
+
+look up why using *sparse* categorical crossentropy
+
+lowercase all words
