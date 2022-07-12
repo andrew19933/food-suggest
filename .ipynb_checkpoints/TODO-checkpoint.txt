@@ -8,4 +8,9 @@ figure out how <code>embedding_dim</code> should compare to <code>vocab_size</co
 
 look up why using *sparse* categorical crossentropy
 
-lowercase all words
+
+should check the entries where accented symbols, etc. occur to inspect the data
+
+do we really need padding? feel like we don't
+
+might want to split based on '\n' so that dictionary consists of all possible ingredients (hopefully unique-ish). even better would be to use a dictionary of ingredients. might also want to 'generate' new data by shuffling the order of ingredients within recipes, since the order doesn't seem like a useful thing to remember
