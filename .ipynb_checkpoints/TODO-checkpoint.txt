@@ -1,14 +1,12 @@
 TODO:
 
 - perhaps get rid of unnecessary stuff in symbol_blacklist
+- improve symbol_blacklist so that best_ids_from_ingred_list is faster
 - optimize application of best_ids_from_ingred_list to list, takes about 130 seconds for 10000 entries
+- figure out how <code>embedding_dim</code> should compare to <code>vocab_size</code>
+- get better vocab list
+- see what percent of ingredient phrases don't match anything
 
+- look up why using *sparse* categorical crossentropy
 
-
-- parse ingredients list so that it can reckognize volumetric/weight terms (eg. tsp, Tbsp, cup, grams) and structure ingredients list in (ingredient, amount) normalized to, say, grams or something
-
-figure out how <code>embedding_dim</code> should compare to <code>vocab_size</code>
-
-look up why using *sparse* categorical crossentropy
-
-might want to split based on '\n' so that dictionary consists of all possible ingredients (hopefully unique-ish). even better would be to use a dictionary of ingredients. might also want to 'generate' new data by shuffling the order of ingredients within recipes, since the order doesn't seem like a useful thing to remember
+- might want to 'generate' new data by shuffling the order of ingredients within recipes, since the order doesn't seem like a useful thing to remember
