@@ -1,8 +1,7 @@
 TODO:
 
 - perhaps get rid of unnecessary stuff in symbol_blacklist
-- make best_id_from_ingred word on newline-delimited list
-- optimize best_id_from_ingred for finding longest substring match (perhaps start with longest substrings and only proceed if no matches?)
+- optimize application of best_ids_from_ingred_list to list, takes about 130 seconds for 10000 entries
 
 
 
