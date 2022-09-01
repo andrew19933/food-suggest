@@ -4,6 +4,6 @@ Do you have ingredients to use up but not sure what else to combine them with to
 
 ## Technical details
 
-- food-suggest currently runs on a Recurrent Neural Network (RNN) architecture build with TensorFlow
+- food-suggest currently runs on a Recurrent Neural Network (RNN) architecture built with TensorFlow
 - Recipe database obtained from https://eightportions.com/datasets/Recipes/ (~125,000 recipes)
 - Current tokenizer was scraped from all letters of https://git.macropus.org/bbc-food/www.bbc.co.uk/food/ingredients/by/letter/a.html
