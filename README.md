@@ -5,5 +5,5 @@ Do you have ingredients to use up but not sure what else to combine them with to
 ## Technical details
 
 - foodSuggest currently runs on a Recurrent Neural Network (RNN) architecture.
-- Recipe database obtained from [https://eightportions.com/datasets/Recipes/] (~125,000 recipes)
-- Current tokenizer was scraped from all letters of [https://git.macropus.org/bbc-food/www.bbc.co.uk/food/ingredients/by/letter/a.html]
+- Recipe database obtained from https://eightportions.com/datasets/Recipes/ (~125,000 recipes)
+- Current tokenizer was scraped from all letters of https://git.macropus.org/bbc-food/www.bbc.co.uk/food/ingredients/by/letter/a.html
